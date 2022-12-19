@@ -17,7 +17,9 @@
 		"test": "jest",
 		"prebuild": "npm run clean",
 		"build": "rollup -c",
-		"clean": "rm -rf dist"
+		"clean": "rm -rf dist",
+		"prepare": "husky install",
+		"format": "prettier --write ."
 	},
 	"files": [
 		"dist",
@@ -39,10 +41,16 @@
 		"@types/websocket": "^1.0.5",
 		"dotenv": "^16.0.3",
 		"ethers": "^5.7.2",
+		"husky": "^8.0.2",
 		"jest": "^29.3.0",
+		"lint-staged": "^13.1.0",
+		"prettier": "2.8.1",
 		"rollup": "^3.3.0",
 		"rollup-plugin-typescript2": "^0.34.1",
 		"ts-jest": "^29.0.3"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
 	},
 	"license": "MIT",
 	"author": "BlockVision",
@@ -54,7 +62,6 @@
 		"bv",
 		"sui"
 	],
-	"sideEffects": false,
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/block-vision/blockvision.js"
@@ -62,5 +69,6 @@
 	"bugs": {
 		"url": "https://github.com/block-vision/blockvision.js/issues"
 	},
-	"homepage": "https://github.com/block-vision/blockvision.js#readme"
+	"homepage": "https://github.com/block-vision/blockvision.js#readme",
+	"sideEffects": false
 }

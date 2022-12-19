@@ -1,6 +1,6 @@
 {
 	"name": "blockvision.js",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Access the BlockVision API more conveniently.",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
@@ -47,11 +47,12 @@
 	"license": "MIT",
 	"author": "BlockVision",
 	"keywords": [
-		"ethers.js",
+		"sdk",
+		"ethers provider",
 		"rpc provider",
 		"blockvision",
-		"BlockVision",
-		"bv"
+		"bv",
+		"sui"
 	],
 	"sideEffects": false,
 	"repository": {
@@ -61,5 +62,5 @@
 	"bugs": {
 		"url": "https://github.com/block-vision/blockvision.js/issues"
 	},
-	"homepage": "https://github.com/alchemyplatform/alchemy-sdk-js#readme"
+	"homepage": "https://github.com/block-vision/blockvision.js#readme"
 }

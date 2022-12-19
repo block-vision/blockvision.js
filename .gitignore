@@ -1,5 +1,3 @@
 node_modules
 dist
 
-# private auth keys
-api-keys.env

@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"noImplicitAny": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"module": "ESNext",
+		"target": "es6",
+		"moduleResolution": "node",
+		"isolatedModules": true,
+		"baseUrl": "./",
+		"sourceMap": true,
+		"declaration": true,
+		"resolveJsonModule": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"]
+}

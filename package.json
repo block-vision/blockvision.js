@@ -1,7 +1,7 @@
 {
 	"name": "blockvision.js",
 	"version": "0.1.0",
-	"description": "The BlockVision SDK for JavaScript is more convenient to interact with the blockchain when using BlockVision API.",
+	"description": "Access the BlockVision API more conveniently.",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
 	"brower": "dist/esm/index.js",
@@ -53,5 +53,13 @@
 		"BlockVision",
 		"bv"
 	],
-	"sideEffects": false
+	"sideEffects": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/block-vision/blockvision.js"
+	},
+	"bugs": {
+		"url": "https://github.com/block-vision/blockvision.js/issues"
+	},
+	"homepage": "https://github.com/alchemyplatform/alchemy-sdk-js#readme"
 }

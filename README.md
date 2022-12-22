@@ -136,8 +136,9 @@ The SDK FT Methods can interact with ERC20 contracts, view and learn all FT rela
 
 > In scenarios such as real estate, voting rights, or collectibles, certain items are more valuable than others due to usefulness, rarity, etc. ERC721 is a standard for representing ownership of non-fungible tokens, that is, where each token is unique.
 > ERC721 is a more complex standard than ERC20, with multiple optional extensions, and is split across a number of contracts.
+> ERC1155 is a novel token standard that aims to take the best from previous standards to create a fungibility-agnostic and gas-efficient token contract.
 
-The SDK NFT Methods can interact with ERC721 contracts, view and learn all NFT related functions [here](https://docs.blockvision.org/blockvision/indexing-apis/nft-api).
+The SDK NFT Methods can interact with ERC721 and ERC1155 contracts, view and learn all NFT related functions [here](https://docs.blockvision.org/blockvision/indexing-apis/nft-api).
 
 ### BlockVision Account Methods
 

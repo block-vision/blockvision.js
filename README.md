@@ -135,7 +135,9 @@ The SDK FT Methods can interact with ERC20 contracts, view and learn all FT rela
 ### BlockVision NFT Methods
 
 > In scenarios such as real estate, voting rights, or collectibles, certain items are more valuable than others due to usefulness, rarity, etc. ERC721 is a standard for representing ownership of non-fungible tokens, that is, where each token is unique.
+>
 > ERC721 is a more complex standard than ERC20, with multiple optional extensions, and is split across a number of contracts.
+>
 > ERC1155 is a novel token standard that aims to take the best from previous standards to create a fungibility-agnostic and gas-efficient token contract.
 
 The SDK NFT Methods can interact with ERC721 and ERC1155 contracts, view and learn all NFT related functions [here](https://docs.blockvision.org/blockvision/indexing-apis/nft-api).
@@ -152,6 +154,7 @@ View and learn all DeFi related functions [here](https://docs.blockvision.org/bl
 ### BlockVision Mempool Methods
 
 > The BlockVision Mempool module provides two main features. First, you can easily subscribe to events such as `bvPendingTransactions`, `newPendingTransactions`, `newHeads`, and `logs` using the eth_subscribe method provided by the SDK.
+>
 > Second, you can use the `eth_sendBundle` series of methods to easily interact with the FlashBots functionality and conveniently complete your on-chain arbitrage activities.
 
 The SDK provides a range of Mempool methods that allow you to easily access real-time data about pending transactions and events on chain. The SDK also offers convenient tools to help you interact with FlashBots. For more details on these methods and how to use them, please see the documentation or the code examples in this [guide](https://docs.blockvision.org/blockvision/indexing-apis/mempool).
